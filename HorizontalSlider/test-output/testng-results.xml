@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34725" started-at="2019-06-26T17:11:52Z" finished-at="2019-06-26T17:12:27Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="34725" started-at="2019-06-26T17:11:52Z" finished-at="2019-06-26T17:12:27Z">
+      <class name="com.horizontal.slider.tests.SliderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.horizontal.slider.tests.SliderTest@735b5592]" name="setup" is-config="true" duration-ms="12587" started-at="2019-06-26T22:41:52Z" finished-at="2019-06-26T22:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAllElements()[pri:0, instance:com.horizontal.slider.tests.SliderTest@735b5592]" name="verifyAllElements" duration-ms="13115" started-at="2019-06-26T22:42:05Z" finished-at="2019-06-26T22:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllElements -->
+        <test-method status="PASS" signature="verifySliderMaxValueAsFive()[pri:0, instance:com.horizontal.slider.tests.SliderTest@735b5592]" name="verifySliderMaxValueAsFive" duration-ms="4575" started-at="2019-06-26T22:42:18Z" finished-at="2019-06-26T22:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySliderMaxValueAsFive -->
+        <test-method status="PASS" signature="verifySliderMinValueAsZero()[pri:0, instance:com.horizontal.slider.tests.SliderTest@735b5592]" name="verifySliderMinValueAsZero" duration-ms="4400" started-at="2019-06-26T22:42:22Z" finished-at="2019-06-26T22:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySliderMinValueAsZero -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.horizontal.slider.tests.SliderTest@735b5592]" name="closeBrowser" is-config="true" duration-ms="95" started-at="2019-06-26T22:42:27Z" finished-at="2019-06-26T22:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.horizontal.slider.tests.SliderTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

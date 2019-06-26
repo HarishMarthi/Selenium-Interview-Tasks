@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserType" value="chrome"/>
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.basic.auth.LoginAutomationSite">
+        <methods>
+          <include name="verifySuccessResponseText"/>
+          <include name="initializeReport"/>
+          <include name="stopReorts"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.basic.auth.LoginAutomationSite -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
